@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    max-width: 100%;
+     position: relative;
+     font-family: San Francisco;
+}
+div{
+    margin-top: -2rem;
+    width: 700px;
+    max-width: 100%;
+    height: auto;
+    color: 
+    #ddd;
+    font-size:20px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#score{
+    display: none;
+    font-size: 1.5rem;
+}
+#commencer{
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    color: blue;
+    border: solid 2px #1a1a1a;
+    top: 50vh;
+    position: absolute;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px blue;
+    transition: 0.3s;
+}
+#commencer:hover{
+    background-color: rgb(2, 6, 244);
+    transform: scale(1.2);
+    color: #1a1a1a;
+}
+#canvas{
+    margin: 2rem;
+    background-color: rgba(34, 30, 33, 0.9);
+    width: 100%;
+    color: #ddd;
+}
+h1{
+    margin-bottom: -0.01rem;
+    font-family: San Francisco;
+}
+.instructions{
+    color: rgb(245, 245, 131);
+    cursor: pointer;
+    transition: 0.6;
+}
+.instructions:hover{
+    color: orangered;
+}
