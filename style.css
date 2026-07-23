@@ -4,7 +4,7 @@ body{
     background-color: black;
     max-width: 100%;
      position: relative;
-     font-family: San Francisco;
+     font-family: Arial;
     height:100vh;
 }
 .cadre{
@@ -59,10 +59,8 @@ h1{
     font-family: San Francisco;
 }
 .instructions{
-    color: rgb(245, 245, 131);
+    color: yellow;
     cursor: pointer;
     transition: 0.6;
 }
-.instructions:hover{
-    color: orangered;
-}
+
