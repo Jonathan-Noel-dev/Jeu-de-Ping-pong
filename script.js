@@ -9,6 +9,7 @@ let raquetG = {xG : 0, yG : 200};
 let raquetD = {xD : larg-20, yD : 200};
 let ball = {x : larg/2-7.5,y : haut/2-7.5};
 let dir = 1,scoreD=0,scoreG = 0,G=0, n = 0,sens=1;c=0;
+let instructions = document.querySelector(".instructions");
 window.addEventListener("keydown",deplacerG)
 function deplacerG(e){
     if(e.key === "S" || e.key === "s"){
@@ -45,6 +46,7 @@ start.addEventListener("click",commencer);
 
 function commencer(){
     start.style.display = "none";
+    instructions.style.display ="none";
     musique.loop = true;
     musique.play()
     //initJeu()
