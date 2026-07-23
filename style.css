@@ -7,7 +7,7 @@ body{
      font-family: San Francisco;
     height:100vh;
 }
-div{
+.cadre{
     margin-top: -2rem;
     width: 700px;
     max-width: 100%;
@@ -32,12 +32,13 @@ div{
     background-color: #1a1a1a;
     color: blue;
     border: solid 2px #1a1a1a;
-    top: 50vh;
-    position: absolute;
+    
     padding: 0.5rem 1rem;
     border-radius: 20px;
     box-shadow: 2px 2px 4px blue;
     transition: 0.3s;
+    margin:0.5rem;
+    cursor:pointer;
 }
 #commencer:hover{
     background-color: rgb(2, 6, 244);
@@ -49,6 +50,9 @@ div{
     background-color: rgba(34, 30, 33, 0.9);
     width: 100%;
     color: #ddd;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 h1{
     margin-bottom: -0.01rem;
